@@ -1,4 +1,4 @@
-import validatorCpf from './validatorCpf'
+import validatorCpf from './validatorCpf.js'
 
 const app = validatorCpf()
 

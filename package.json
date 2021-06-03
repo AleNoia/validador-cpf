@@ -1,0 +1,20 @@
+{
+  "name": "cpf-validation",
+  "version": "1.0.0",
+  "description": "A simple cpf validation",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleNoia/cpf-validation.git"
+  },
+  "author": "Igor Noia Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleNoia/cpf-validation/issues"
+  },
+  "homepage": "https://github.com/AleNoia/cpf-validation#readme"
+}
