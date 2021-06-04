@@ -6,17 +6,15 @@ function validatorCpf() {
 
     // ======================================== [START APP]
     function start() {
-        validator('374.103.450-98');
+        validate('605.930.303-03');
     }
 
-    // ======================================== [VALIDATOR]
-    function validator(cpf) {
-        const arrayCpf = create.arrayCpf(cpf)   
-
-        if(typeof arrayCpf === 'undefined') return false 
-        if(arrayCpf.length !== 11) return false 
-
-        console.log(arrayCpf)
+    // ======================================== [VALIDATE]
+    function validate(cpf) {
+        
+        const firstDigit = create.firstDigit(cpf)
+        console.log(firstDigit)
+        
         return true
     }
 
