@@ -6,7 +6,7 @@ function validatorCpf() {
 
     // ======================================== [START APP]
     function start() {
-        validate('81692719084');
+        validate('816.927.190-84');
     }
 
     // ======================================== [VALIDATE]
@@ -14,7 +14,6 @@ function validatorCpf() {
         
         const firstDigit = create.digit(cpf)
         console.log('[firstDigit]', firstDigit)
-        
         return true
     }
 
