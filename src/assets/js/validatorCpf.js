@@ -6,14 +6,14 @@ function validatorCpf() {
 
     // ======================================== [START APP]
     function start() {
-        validate('605.930.303-03');
+        validate('81692719084');
     }
 
     // ======================================== [VALIDATE]
     function validate(cpf) {
         
-        const firstDigit = create.firstDigit(cpf)
-        console.log(firstDigit)
+        const firstDigit = create.digit(cpf)
+        console.log('[firstDigit]', firstDigit)
         
         return true
     }
