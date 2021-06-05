@@ -10,7 +10,7 @@ function validatorCpf() {
         // EXEMPLOS: 
         isValid('705.484.450-52');
         isValid('370.250.620-81');
-        isValid('070.987.720-03');
+        isValid('07098772003');
         isValid('11100011122');
         isValid('00000000000');
     }
@@ -19,11 +19,12 @@ function validatorCpf() {
     function validate(cpf) {
         const array = create.arrayCpf(cpf)
         const parcial = create.parcialCpf(array)
-        const cleanCpf = create.cleanCpf(cpf) 
-        
+        const cleanCpf = create.cleanCpf(cpf)
+
         if (typeof array === 'undefined') return false
         if (array.length !== 11) return false // SE O CPF NAO FOR DO TAMANHO ADEQUADO ELE IRA RETORNA FALSE
-        
+        if (isSequence(cpf)) return false // VERIFICANDO SE O CPF TEM UMA SEQUÊNCIA REPITIDA
+
         const firstDigit = create.digit(cpf, false) // PEGANDO O PRIMEIRO DIGITO
         const secondDigt = create.digit(cpf, true, firstDigit) // PEGANDO O SEGUNDO DIGITO
 
@@ -33,10 +34,17 @@ function validatorCpf() {
         parcial.push(String(firstDigit), String(secondDigt))
         const compare = parcial.join('') // JUNTANDO OS DIGITOS COM O RESTO DO CPF PARA A COMPARACAO
 
-        if(cleanCpf !== compare) return false
+        if (cleanCpf !== compare) return false
 
         return true
     }
+
+    // ======================================== VALIDANDO SE HÁ UMA SEQUÊNCIA
+    function isSequence(cpf) {
+        const sequence = cpf[0].repeat(create.cleanCpf(cpf).length)
+        return sequence === create.cleanCpf(cpf)
+    }
+
 
 
     // ======================================== EXIBINDO RESULTADO
