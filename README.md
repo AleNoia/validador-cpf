@@ -77,7 +77,7 @@ As tecnologias usadas neste projeto:
 ***
 # <a name="Contributing"></a>🤝 Contribuição
 
-1. Faça um fork no projeto.
+1. Faça um fork do projeto.
 2. Crie uma nova branch com suas alteraçãoes: ```git checkout -b my-feature```
 3. Salve suas alterações e crie um commit explicando suas alterações: ```git commit -m" feature: My new feature "```
 4. Envie suas alterações: ```git push origin my-feature```
@@ -91,7 +91,7 @@ Sinta-se livre para contribuir🙂
 
 ### [Igor Noia Silva](https://github.com/AleNoia)
 
-Se você quer entrar em conato, me envie um email ou uma mensagem no Twitter
+Se você quiser entrar em conato, me envie um email ou uma mensagem no Twitter
 
 [![Gmail Badge](https://img.shields.io/badge/-igornoiasilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igornoiasilva@gmail.com)](mailto:igornoiasilva@gmail.com)  ![badge](https://img.shields.io/twitter/url?label=%40IgorNoiaSilva&style=social&url=https%3A%2F%2Ftwitter.com%2FIgorNoiaSilva)
 
