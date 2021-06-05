@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-Um validador de CPF para verificar se é falso ou verdadeiro
+Um validador de CPF que faz a verificação e retorna um resultado mostrando se é falso ou verdadeiro
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@ Um validador de CPF para verificar se é falso ou verdadeiro
 
 ***
 # 📌 Índice
-* 💡 [Características](#features)
+* 💡 [Funcionalidades](#features)
 * 🎯 [Propósito](#Purpose)
 * 🛠 [Instação](#Installation)
 * 📝 [Utilização](#Utilization)
@@ -24,7 +24,7 @@ Um validador de CPF para verificar se é falso ou verdadeiro
 * 🧾 [Licença](#License)
 ***
 
-# <a name="features"></a>💡 Características
+# <a name="features"></a>💡 Funcionalidades
 
 * Faça uma validação para ver se o CPF inserido é falso ou verdadeiro 
 
@@ -44,11 +44,11 @@ Execute este comando para clonar o reprositório:
 
 ```git
 
-git clone https://github.com/AleNoia/client-manager.git
+git clone https://github.com/AleNoia/validador-cpf.git
 
 ```
 ### 🎲 Executando
-Execute o arquivo ```main.js``` na pasta ```src```
+Execute o arquivo ```main.js``` na pasta ```src/js```
 
 ***
 
@@ -91,7 +91,7 @@ Sinta-se livre para contribuir🙂
 
 ### [Igor Noia Silva](https://github.com/AleNoia)
 
-Se você quiser entrar em conato, me envie um email ou uma mensagem no Twitter
+Se você quiser entrar em conato, me envie um email ou uma mensagem no Twitter :)
 
 [![Gmail Badge](https://img.shields.io/badge/-igornoiasilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igornoiasilva@gmail.com)](mailto:igornoiasilva@gmail.com)  ![badge](https://img.shields.io/twitter/url?label=%40IgorNoiaSilva&style=social&url=https%3A%2F%2Ftwitter.com%2FIgorNoiaSilva)
 
