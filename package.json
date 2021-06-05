@@ -1,7 +1,7 @@
 {
-  "name": "cpf-validation",
+  "name": "validado-cpf",
   "version": "1.0.0",
-  "description": "A simple cpf validation",
+  "description": "Um validador de cpf",
   "main": "main.js",
   "type": "module",
   "scripts": {
