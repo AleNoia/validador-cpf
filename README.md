@@ -16,7 +16,7 @@ Um validador de CPF que faz a verificação e retorna um resultado mostrando se 
 # 📌 Índice
 * 💡 [Funcionalidades](#features)
 * 🎯 [Propósito](#Purpose)
-* 🛠 [Instação](#Installation)
+* 🛠 [Instalação](#Installation)
 * 📝 [Utilização](#Utilization)
 * 🤝 [Contribuição](#Contributing) 
 * ⚙ [Tecnologias utilizadas](#TechnologiesUsed)
@@ -36,7 +36,7 @@ Meu propósito com esse projeto é entender mais sobre Design Patterns
 
 ***
 
-# <a name="Installation"></a>🛠 Instação
+# <a name="Installation"></a>🛠 Instalação
 
 Você precisa fazer o download do [git](https://git-scm.com) incialmente
 
